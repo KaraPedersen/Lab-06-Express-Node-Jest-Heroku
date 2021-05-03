@@ -1,0 +1,25 @@
+{
+  "name": "Lab-06-Express-Node-Jest-Heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "lint": "eslint .",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaraPedersen/Lab-06-Express-Node-Jest-Heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaraPedersen/Lab-06-Express-Node-Jest-Heroku/issues"
+  },
+  "homepage": "https://github.com/KaraPedersen/Lab-06-Express-Node-Jest-Heroku#readme"
+}
